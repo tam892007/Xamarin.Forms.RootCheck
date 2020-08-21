@@ -1,0 +1,8 @@
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Debug\xamarin.ios10\optimized\
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Debug\xamarin.ios10\Xamarin.Forms.RootCheck.csprojAssemblyReference.cache
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Debug\xamarin.ios10\Xamarin.Forms.RootCheck.AssemblyInfoInputs.cache
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Debug\xamarin.ios10\Xamarin.Forms.RootCheck.AssemblyInfo.cs
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\bin\Debug\xamarin.ios10\Xamarin.Forms.RootCheck.dll
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\bin\Debug\xamarin.ios10\Xamarin.Forms.RootCheck.pdb
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Debug\xamarin.ios10\Xamarin.Forms.RootCheck.dll
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Debug\xamarin.ios10\Xamarin.Forms.RootCheck.pdb

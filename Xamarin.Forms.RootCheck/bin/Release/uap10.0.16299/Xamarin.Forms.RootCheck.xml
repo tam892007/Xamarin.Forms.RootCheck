@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xamarin.Forms.RootCheck</name>
+    </assembly>
+    <members>
+        <member name="T:Xamarin.Forms.RootCheck.RootCheck">
+            <summary>
+            Cross Xamarin.Forms.RootCheck
+            </summary>
+        </member>
+        <member name="P:Xamarin.Forms.RootCheck.RootCheck.IsSupported">
+            <summary>
+            Gets if the plugin is supported on the current platform.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Forms.RootCheck.RootCheck.Current">
+            <summary>
+            Current plugin implementation to use
+            </summary>
+        </member>
+        <member name="T:Xamarin.Forms.RootCheck.IChecker">
+            <summary>
+            Interface to check if a device is rooted / jailbroken
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.RootCheck.IChecker.IsDeviceRooted">
+            <summary>
+            Check if the device is rooted / jailbroken
+            </summary>
+            <returns>true if rooted or jailbroken, false otherwise.</returns>
+        </member>
+        <member name="T:Xamarin.Forms.RootCheck.RootChecker">
+            <summary>
+            UWP implementation of IChecker
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.RootCheck.RootChecker.IsDeviceRooted">
+            <summary>
+            Check if the device is rooted / jailbroken
+            </summary>
+            <returns>true if rooted or jailbroken, false otherwise.</returns>
+        </member>
+    </members>
+</doc>

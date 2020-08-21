@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.RootCheck", "Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck.csproj", "{EA441BE4-EE6D-4274-8EA1-FCC6F47EC090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA441BE4-EE6D-4274-8EA1-FCC6F47EC090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA441BE4-EE6D-4274-8EA1-FCC6F47EC090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA441BE4-EE6D-4274-8EA1-FCC6F47EC090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA441BE4-EE6D-4274-8EA1-FCC6F47EC090}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06205851-FB15-4D91-B4DE-8B11467710B6}
+	EndGlobalSection
+EndGlobal

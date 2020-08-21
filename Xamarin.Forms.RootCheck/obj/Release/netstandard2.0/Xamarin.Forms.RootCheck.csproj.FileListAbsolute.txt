@@ -1,0 +1,10 @@
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\bin\Release\netstandard2.0\Xamarin.Forms.RootCheck.deps.json
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\bin\Release\netstandard2.0\Xamarin.Forms.RootCheck.dll
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\bin\Release\netstandard2.0\Xamarin.Forms.RootCheck.pdb
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\bin\Release\netstandard2.0\Xamarin.Forms.RootCheck.xml
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Release\netstandard2.0\Xamarin.Forms.RootCheck.AssemblyInfoInputs.cache
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Release\netstandard2.0\Xamarin.Forms.RootCheck.AssemblyInfo.cs
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Release\netstandard2.0\Xamarin.Forms.RootCheck.dll
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Release\netstandard2.0\Xamarin.Forms.RootCheck.xml
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Release\netstandard2.0\Xamarin.Forms.RootCheck.pdb
+D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Release\netstandard2.0\Xamarin.Forms.RootCheck.csprojAssemblyReference.cache

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.Forms.RootCheck</id>
+    <version>1.0.0</version>
+    <authors>Tam Lai</authors>
+    <owners>Tam Lai</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/tam892007/Xamarin.Forms.RootCheck/</projectUrl>
+    <icon>icon.png</icon>
+    <description>A Xamarin Forms plugin to check if devices are rooted / jailbroken.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Xamarin Jailbreak Root Check Detect RootCheck RootDetect Rooted XF</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="icon.png" target="" />
+  </files>
+</package>
