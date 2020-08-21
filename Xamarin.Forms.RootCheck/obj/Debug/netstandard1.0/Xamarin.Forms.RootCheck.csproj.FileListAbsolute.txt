@@ -1,7 +1,0 @@
-D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Debug\netstandard1.0\Xamarin.Forms.RootCheck.AssemblyInfoInputs.cache
-D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Debug\netstandard1.0\Xamarin.Forms.RootCheck.AssemblyInfo.cs
-D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\bin\Debug\netstandard1.0\Xamarin.Forms.RootCheck.deps.json
-D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\bin\Debug\netstandard1.0\Xamarin.Forms.RootCheck.dll
-D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\bin\Debug\netstandard1.0\Xamarin.Forms.RootCheck.pdb
-D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Debug\netstandard1.0\Xamarin.Forms.RootCheck.dll
-D:\WORK\Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck\obj\Debug\netstandard1.0\Xamarin.Forms.RootCheck.pdb
