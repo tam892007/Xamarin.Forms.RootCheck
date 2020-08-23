@@ -18,6 +18,7 @@ A Xamarin Forms plugin to check if devices are rooted / jailbroken.
 * CheckPotentialDangerousFiles
 * CheckPotentialDangerousFolders
 * CheckFileWritePermission
+* CanRunFork
 
 ## Usage
 
