@@ -3,6 +3,7 @@ using Android.Content.PM;
 using Android.OS;
 using Java.IO;
 using Java.Lang;
+using RootCheck.Core;
 using System.Collections.Generic;
 
 namespace Xamarin.Forms.RootCheck

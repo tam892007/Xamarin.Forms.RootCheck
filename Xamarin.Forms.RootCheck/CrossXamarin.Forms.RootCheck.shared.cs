@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RootCheck.Core;
+using System;
 
 namespace Xamarin.Forms.RootCheck
 {
