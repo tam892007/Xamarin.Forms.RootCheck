@@ -25,7 +25,12 @@ namespace RootCheck.Maui
 
         private static IChecker CreateChecker()
         {
+            // TODO: Do we need to care about this anymore?
+#if NETSTANDARD1_0 || NETSTANDARD2_0
+            return null;
+#else
             return new PlatformChecker();
+#endif
         }
 
         internal static Exception NotImplementedInReferenceAssembly() =>

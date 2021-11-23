@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootCheck.Maui", "RootCheck
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootCheck.Core", "RootCheck.Core\RootCheck.Core.csproj", "{6EDCB40F-1D94-497A-95C3-AAF21EDA3CC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{349A2777-8B25-4214-A598-7F9E9189BB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootCheck.UnitTests", "RootCheck.UnitTests\RootCheck.UnitTests.csproj", "{05BAE923-D871-4BD0-A857-47A954FBC5EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{6EDCB40F-1D94-497A-95C3-AAF21EDA3CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EDCB40F-1D94-497A-95C3-AAF21EDA3CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EDCB40F-1D94-497A-95C3-AAF21EDA3CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BAE923-D871-4BD0-A857-47A954FBC5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BAE923-D871-4BD0-A857-47A954FBC5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BAE923-D871-4BD0-A857-47A954FBC5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BAE923-D871-4BD0-A857-47A954FBC5EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05BAE923-D871-4BD0-A857-47A954FBC5EF} = {349A2777-8B25-4214-A598-7F9E9189BB79}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06205851-FB15-4D91-B4DE-8B11467710B6}
