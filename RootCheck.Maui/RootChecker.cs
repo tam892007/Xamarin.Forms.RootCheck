@@ -3,18 +3,27 @@ using System;
 
 namespace RootCheck.Maui
 {
+    /// <summary>
+    /// Root Checker
+    /// </summary>
     public static class RootChecker
     {
         private static Lazy<IChecker> platformImplementation = new Lazy<IChecker>(() => CreateChecker(), System.Threading.LazyThreadSafetyMode.PublicationOnly);
 
-        public static bool IsDeviceRooted()
+        /// <summary>
+        /// Returns whether the device is rooted
+        /// </summary>
+        public static bool IsDeviceRooted
         {
-            var checker = platformImplementation.Value;
+            get
+            {
+                var checker = platformImplementation.Value;
 
-            if (checker is null)
-                return false;
+                if (checker is null)
+                    return false;
 
-            return checker.IsDeviceRooted();
+                return checker.IsDeviceRooted();
+            }
         }
 
         private static IChecker CreateChecker()

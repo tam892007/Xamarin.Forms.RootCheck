@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.RootCheck", "Xamarin.Forms.RootCheck\Xamarin.Forms.RootCheck.csproj", "{EA441BE4-EE6D-4274-8EA1-FCC6F47EC090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RootCheck.Forms", "Xamarin.Forms.RootCheck\RootCheck.Forms.csproj", "{EA441BE4-EE6D-4274-8EA1-FCC6F47EC090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootCheck.Maui", "RootCheck.Maui\RootCheck.Maui.csproj", "{C3910742-58CD-4900-87FC-5ADF0486602E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RootCheck.Maui", "RootCheck.Maui\RootCheck.Maui.csproj", "{C3910742-58CD-4900-87FC-5ADF0486602E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootCheck.Core", "RootCheck.Core\RootCheck.Core.csproj", "{6EDCB40F-1D94-497A-95C3-AAF21EDA3CC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RootCheck.Core", "RootCheck.Core\RootCheck.Core.csproj", "{6EDCB40F-1D94-497A-95C3-AAF21EDA3CC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{349A2777-8B25-4214-A598-7F9E9189BB79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootCheck.UnitTests", "RootCheck.UnitTests\RootCheck.UnitTests.csproj", "{05BAE923-D871-4BD0-A857-47A954FBC5EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RootCheck.UnitTests", "RootCheck.UnitTests\RootCheck.UnitTests.csproj", "{05BAE923-D871-4BD0-A857-47A954FBC5EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -13,9 +13,11 @@ namespace RootCheck.UnitTests
         [Test]
         public void IsDeviceRooted_PlatformNotSupported_Should_ReturnFalse()
         {
-            var rooted = RootChecker.IsDeviceRooted();
+            var rooted = RootChecker.IsDeviceRooted;
 
             Assert.False(rooted, "Root check is not supported by platform, it should not be able to detect a root");
         }
+
+        // TODO: Is it possible to test anything else?
     }
 }
