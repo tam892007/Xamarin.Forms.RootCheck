@@ -1,5 +1,4 @@
-﻿<Project Sdk="MSBuild.Sdk.Extras/2.0.54">
-
+﻿<Project Sdk="MSBuild.Sdk.Extras/3.0.38">
   <PropertyGroup>
     <!--Work around so the conditions work below-->
     <TargetFrameworks></TargetFrameworks>
