@@ -22,4 +22,9 @@
 	  <Folder Include="Platforms\Windows\" />
 	</ItemGroup>
 
+	<PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
 </Project>
