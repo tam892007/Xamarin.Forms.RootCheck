@@ -1,34 +1,34 @@
 ﻿using RootCheck.Core;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace RootCheck.Maui
 {
-    /// <summary>
-    /// Root Checker
-    /// </summary>
-    public class RootChecker : IChecker
+    public static class RootChecker
     {
-        public bool IsDeviceRooted()
+        private static Lazy<IChecker> platformImplementation = new Lazy<IChecker>(() => CreateChecker(), System.Threading.LazyThreadSafetyMode.PublicationOnly);
+
+        public static bool IsDeviceRooted()
         {
-            var checker = GetPlatformChecker();
+            var checker = platformImplementation.Value;
 
             if (checker is null)
-                return false;
+            {
+                throw NotImplementedInReferenceAssembly();
+            }
 
             return checker.IsDeviceRooted();
         }
 
-        private IChecker GetPlatformChecker()
+        private static IChecker CreateChecker()
         {
-#if IOS
-            return new iOSRootChecker();
-#endif
-
-#if ANDROID
-            return new AndroidRootChecker();
-#endif
-
-            // Default if the platform is not supported
-            return null;
+            return new PlatformChecker();
         }
+
+        internal static Exception NotImplementedInReferenceAssembly() =>
+            new NotImplementedException("This functionality is not implemented in the portable version of this assembly.  You should reference the NuGet package from your main application project in order to reference the platform-specific implementation.");
     }
 }
