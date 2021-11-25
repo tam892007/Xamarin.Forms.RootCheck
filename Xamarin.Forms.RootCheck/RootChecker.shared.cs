@@ -1,9 +1,10 @@
-﻿using System;
+﻿using RootCheck.Core;
+using System;
 
 namespace Xamarin.Forms.RootCheck
 {
     /// <summary>
-    /// Cross Xamarin.Forms.RootCheck
+    /// Root Check
     /// </summary>
     public static class RootCheck
     {
@@ -15,18 +16,20 @@ namespace Xamarin.Forms.RootCheck
         public static bool IsSupported => implementation.Value == null ? false : true;
 
         /// <summary>
-        /// Current plugin implementation to use
+        /// Returns whether the device is rooted
         /// </summary>
-        public static IChecker Current
+        public static bool IsDeviceRooted
         {
             get
             {
-                IChecker ret = implementation.Value;
-                if (ret == null)
+                IChecker checker = implementation.Value;
+
+                if (checker is null)
                 {
                     throw NotImplementedInReferenceAssembly();
                 }
-                return ret;
+
+                return checker.IsDeviceRooted();
             }
         }
 

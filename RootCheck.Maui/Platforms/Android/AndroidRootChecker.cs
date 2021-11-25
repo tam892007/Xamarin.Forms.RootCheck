@@ -1,16 +1,15 @@
-﻿using Android.App;
+﻿using RootCheck.Core;
+using Android.App;
 using Android.Content.PM;
 using Android.OS;
 using Java.IO;
 using Java.Lang;
 using System.Collections.Generic;
 
-namespace Xamarin.Forms.RootCheck
+namespace RootCheck.Maui
 {
-    /// <summary>
-    /// Android implementation of IChecker
-    /// </summary>
-    public class RootChecker : IChecker
+    // All the code in this file is only included on Android.
+    public class AndroidRootChecker : IChecker
     {
         static readonly string BINARY_SU = "su";
         static readonly string BINARY_BUSYBOX = "busybox";

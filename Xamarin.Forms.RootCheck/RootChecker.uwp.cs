@@ -1,4 +1,6 @@
-﻿namespace Xamarin.Forms.RootCheck
+﻿using RootCheck.Core;
+
+namespace Xamarin.Forms.RootCheck
 {
     /// <summary>
     /// UWP implementation of IChecker

@@ -1,4 +1,4 @@
-﻿namespace Xamarin.Forms.RootCheck
+﻿namespace RootCheck.Core
 {
     /// <summary>
     /// Interface to check if a device is rooted / jailbroken
